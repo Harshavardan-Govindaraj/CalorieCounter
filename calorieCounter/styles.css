@@ -1,0 +1,92 @@
+form {
+
+    width: 60%;
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(246, 185, 185);
+    flex-direction: column;
+}
+
+#login {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    min-width: 400px;
+}
+
+#calorie-counter {
+    margin: auto
+}
+
+fieldset {
+    margin-bottom: 10px;
+    background-color: rgb(193, 148, 134);
+    padding: 7px;
+}
+
+#calorie-counter button {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid rgb(100, 99, 97);
+}
+
+input:focus {
+    border-color: black;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+small {
+    visibility: hidden;
+}
+
+.error small {
+    visibility: visible;
+}
+
+.output {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.output span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.surplus {
+    color: green;
+}
+
+.deficit {
+    color: red;
+}
+
+button,
+input,
+select {
+    min-height: 24px;
+
+}
